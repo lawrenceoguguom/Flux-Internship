@@ -6,12 +6,17 @@ Internship Assignment
 
 ## 🧱 Components The project is divided into the following reusable components: 
 
-**Navbar** – Contains the navigation links and branding - 
-**Hero Section** – Displays the main introductory content of the page - 
-**Features / Services Section** – Showcases key features or services - 
-**Footer** – Contains footer information and links --- 
+**Navbar** – Contains the navigation links and branding 
+**Hero Section** – Displays the main introductory content of the page 
+**Services Section** – Showcases key services  
+**Footer** – Contains footer information and links  
 
-## 🛠️ Tech Stack - React.js - JavaScript (ES6+) - CSS / Styling (or Tailwind if used) - Vite (if applicable) --- 
+## 🛠️ Tech Stack 
+**React.js**
+**JavaScript (ES6+)**
+**HTML**
+**CSS**
+**Vite**
 
 ## 🚀 How to Run the Project 
 ### 1. Clone the repository ```bash git clone [https://github.com/Ghostcall/Flux-Internship.git]
