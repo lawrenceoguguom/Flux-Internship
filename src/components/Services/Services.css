@@ -1,0 +1,119 @@
+.service-title{
+    color: #e4d0c8;
+    /* background: #6b0f1a; */
+    background: linear-gradient(180deg, black, #800020);
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    width: 20%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    animation: side 5s ease;
+    animation-delay: 4s;
+}
+#services{
+    scroll-margin-top: 30px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.service-description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 1.5rem;
+    padding: 2rem 0;
+    width: 60%;
+}
+.service1, .service2, .service3, .service4{
+    background: linear-gradient(100deg, darkblue, #800020);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 15px 15px rgba(0, 5px, 20px, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 250px;
+    cursor: pointer;
+    animation: side 2s ease-in-out;
+    animation-timeline: view(); 
+    animation-range: entry 0% cover 30%; 
+    transition: all .5s ease-in-out;
+}
+.service1:hover, .service2:hover, .service3:hover, .service4:hover{
+    transform: translateY(-15px);
+}
+.service1 h4, .service2 h4, .service3 h4, .service4 h4{
+    width: fit-content;
+    margin-right: auto;
+    font-size: 2rem;
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 0 1rem;
+}
+.service-topic{
+    padding: 1rem;
+    font-weight: 500;
+}
+.service-topic h5{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background: white;
+    color: black;
+    padding: 1rem;
+}
+.service-topic p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #e4d0c8;
+    padding: .5rem;
+}
+@media screen and (max-width: 768px) {
+    .service-description{
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .service-title{
+        width: fit-content;
+        font-size: 20px;
+    }
+    .service1, .service2, .service3, .service4{
+        width: 80%;
+    }
+    .service-topic h5 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background: white;
+    color: black;
+    padding: .5rem;
+}
+}
+
+
+
+
+
+
+
+
+
+@keyframes side {
+    0%{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+    

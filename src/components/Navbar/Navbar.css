@@ -1,0 +1,138 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem 4rem;
+    gap: 3rem;
+    background-color: #010b15;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    color: white;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.logo span{
+    font-size: 1.1rem;
+    font-weight: 700;   
+    border-radius: 50%;
+    padding: 0.5rem;
+    background: linear-gradient(100deg, darkblue, #800020);
+    color: white;
+}
+.logo h5{
+    font-size: 1.1rem;
+    padding: .1rem 0;
+    background: linear-gradient(100deg, darkblue, #800020);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin: auto 1rem;
+}
+.nav-links ul li a{
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+.nav-links .active{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: auto;
+    background: linear-gradient(100deg, darkblue, #800020);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+.nav-links a:hover{
+    background: linear-gradient(100deg, darkblue, #800020);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-links a:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background: linear-gradient(100deg, darkblue, #800020);
+    transition: all .5s ease-in-out;
+}
+.nav-links a:hover:after{
+    width: 100%;
+}
+.contact{
+    padding: .5rem 1.5rem;
+    background: linear-gradient(100deg, darkblue, #800020);
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact:hover{
+    background: linear-gradient(100deg, #800020, darkblue);
+    transform: translateX(5px);
+}
+.menu-icon{
+    display: none;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        padding: .7rem .5rem;
+    }
+    .logo{
+        gap: .5rem;
+    }
+    .logo h5{
+        font-size: 1rem;
+    }
+    .navlink{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #010b15;
+        color: white;
+        width: 60%;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+        display: none;
+        text-transform: capitalize;
+    }
+    .nav-links.open {
+        display: flex;
+    }
+    .nav-links {
+        gap: 18px;
+  }
+    .nav-links li{
+        margin: 10px 0;
+    }
+    .contact{
+        display: none;
+    }
+
+    .menu-icon{
+        display: flex;
+    }
+}
