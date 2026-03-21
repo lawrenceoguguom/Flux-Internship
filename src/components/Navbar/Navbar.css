@@ -30,7 +30,7 @@
 .logo h5{
     font-size: 1.1rem;
     padding: .1rem 0;
-    background: linear-gradient(100deg, darkblue, #800020);
+    background: linear-gradient(90deg, rgb(189, 189, 224), #f6adb4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -52,21 +52,25 @@
     font-size: 1.2rem;
     font-weight: 700;
     margin: auto;
-    background: linear-gradient(100deg, darkblue, #800020);
+    background: linear-gradient(90deg, rgb(189, 189, 224), #f6adb4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }   
 .nav-links a:hover{
-    background: linear-gradient(100deg, darkblue, #800020);
+    background: linear-gradient(90deg, rgb(189, 189, 224), #f6adb4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 .nav-links a:after{
     content: "";
     display: block;
     width: 0;
+    font-weight: 700;
     height: 4px;
-    background: linear-gradient(100deg, darkblue, #800020);
+    background: linear-gradient(90deg, rgb(189, 189, 224), #f6adb4);
+    color: white;
     transition: all .5s ease-in-out;
 }
 .nav-links a:hover:after{
@@ -102,20 +106,22 @@
     }
     .logo h5{
         font-size: 1rem;
+        background: linear-gradient(90deg, rgb(189, 189, 224), #f6adb4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 700;
     }
-    .navlink{
-        display: none;
-    }
+    
     .nav-links{
         position: absolute;
         top: 60px;
         right: 0;
+        margin: 0 0;
         background: #010b15;
         color: white;
-        width: 60%;
+        width: 50%;
         flex-direction: column;
         align-items: center;
-        padding: 2rem 0;
         display: none;
         text-transform: capitalize;
     }
