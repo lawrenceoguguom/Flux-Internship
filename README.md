@@ -6,8 +6,10 @@ Internship Assignment
 
 ## 🧱 Components The project is divided into the following reusable components: 
 
-**Navbar** – Contains the navigation links and branding 
-**Hero Section** – Displays the main introductory content of the page 
+**Navbar** – Contains the navigation links and branding.
+
+**Hero Section** – Displays the main introductory content of the page.
+
 **Services Section** – Showcases key services  
 **Footer** – Contains footer information and links  
 
