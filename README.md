@@ -6,8 +6,10 @@ Internship Assignment
 
 ## 🧱 Components The project is divided into the following reusable components: 
 
-**Navbar** – Contains the navigation links and branding 
-**Hero Section** – Displays the main introductory content of the page 
+**Navbar** – Contains the navigation links and branding.
+
+**Hero Section** – Displays the main introductory content of the page.
+
 **Services Section** – Showcases key services  
 **Footer** – Contains footer information and links  
 
@@ -19,4 +21,4 @@ Internship Assignment
 **Vite**
 
 ## 🚀 How to Run the Project 
-### 1. Clone the repository ```bash git clone [https://github.com/Ghostcall/Flux-Internship.git]
+### 1. http://ghostcall.github.io/Flux-Internship/
