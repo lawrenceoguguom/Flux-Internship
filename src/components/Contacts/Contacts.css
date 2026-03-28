@@ -1,0 +1,163 @@
+.contacts{
+    width: 100%;
+    /* height: 80vh; */
+    margin: 1rem auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contacts{
+    scroll-margin-top: 60px;
+
+}
+.contacts h2{
+    color: #e4d0c8;
+    background: linear-gradient(180deg, black, #800020);
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    width: 20%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    animation: side 5s ease;
+    animation-delay: 4s;
+}
+.contacts-description{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 2rem;
+    width: 100%;
+    text-align: left;
+    background: linear-gradient(100deg, rgb(37, 37, 228), #800020), url(/src/assets/hero.jpg);
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+}
+.contact-left{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 45%;
+    padding: 1rem;
+    background: rgba(28, 28, 29, 0.7);
+    background-size: cover;
+    border: 2px solid transparent;
+}
+.contact-left-text{
+    color: white;
+    margin: 0 .5rem;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+.contact-left-text h4{
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    line-height: 1.5rem;
+}
+.contact-left-text p{
+    font-size: 1rem;
+    margin: .5rem auto;
+    line-height: 25px;
+}
+.contact-left-text h5{
+    font-size: 1rem;
+}
+.contact-left-social{
+    margin: 0 0;
+}
+.contact-left-social a{
+    margin: 0 .3rem ;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.contact-form{
+    display: flex;
+    width: 45%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.contact-form h4{
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    margin: .5rem;
+}
+.form-flux{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.form-flux input{
+    width: 100%;
+    height: 5vh;
+    margin: .5rem 0;
+    padding: .5rem;
+    border-radius: 4px;
+    border: none;
+}
+.form-flux textarea{
+    resize: none;
+    border-radius: 4px;
+    padding: .5rem;
+    margin: .5rem 0;
+}
+.form-flux button{
+    width: 30%;
+    margin: 0 auto;
+    padding: .5rem;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #800020, darkblue);
+    color: white;
+}
+.form-flux button:hover{
+    background: linear-gradient(90deg, darkblue, #800020);
+    color: white;
+    transform: translateX(-5px);
+}
+@media screen and ( max-width:768px ){
+    .contacts h2{
+        width: fit-content;
+    }
+    .contacts-description{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .contact-left{
+        width: 100%;
+        padding: 0.1rem;
+    }
+    .contact-left-social{
+        margin: 0 .5rem;
+        padding: 1rem 0;
+    }
+    .contact-left-text h4 {
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    line-height: 1.5rem;
+    display: none;
+    }
+    .contact-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    .contact-form {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    flex-direction: column;
+    }
+
+}

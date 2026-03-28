@@ -4,15 +4,18 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Footer from './components/Footer/Footer'
 import Services from './components/Services/Services'
+import Contacts from './components/Contacts/Contacts'
 
 const App = () => {
   return (
 
     <div className='app'>
+
       <Router>
           <Routes>
             <Route path="/#home" element={<Hero />} />
             <Route path="/#services" element={<Services />} />
+            <Route path='/#contact' element={<Contacts />} />
           </Routes>
       </Router>
       
@@ -22,6 +25,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Services />
+      <Contacts />
       <Footer />
     </div>
 
