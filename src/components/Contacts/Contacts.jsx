@@ -8,8 +8,8 @@ const Contacts = () => {
 
   return (
 
-    <div className='contacts'>
-        <h2>Let'S Connect..</h2>
+    <div className='contacts' id='contacts'>
+        <h2>Let's Connect..</h2>
     <div className="contacts-description">
       <div className="contact-left">
             <div className="contact-left-text">

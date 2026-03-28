@@ -18,11 +18,13 @@ const Navbar = () => {
             <ul className={menuOpen ? "nav-links open" : "nav-links"}>
                 <li><a href="#hero" className='active' onClick={closeMenu}>Home</a></li>
                 <li><a href="#services" onClick={closeMenu}>Services</a></li>
+                <li><a href='#contacts' onClick={closeMenu}>Contact</a></li>
+
             </ul>
         
          
          <div className="contact" id='contact'>
-                <a href='#contact'>Contact Us</a>
+                <li><a href='#contacts' onClick={closeMenu}>Get in touch</a></li>
          </div>
          <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <FaTimes /> : <FaBars />}

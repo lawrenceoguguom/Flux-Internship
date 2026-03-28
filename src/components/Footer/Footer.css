@@ -1,15 +1,14 @@
 .footer{
     background-color: #010b15;
     align-items: center;
-    
     width: 100%;
     margin-top: .5rem;
 }
 .footer h3{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #6b0f1a;
-    font-weight: 600;
-    /* margin: auto 0; */
+    font-weight: 500;
+    padding: .5rem;
     text-align: center;
     background: linear-gradient(90deg, rgb(189, 189, 224), #f6adb4);
     -webkit-background-clip: text;
@@ -17,7 +16,7 @@
 }
 .footer h3 span{
     border-radius: 3px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 @media screen and (max-width: 768px) {
@@ -31,6 +30,7 @@
         font-size: 1rem;
         font-weight: 600;
         margin: auto;
+        padding: 0.001rem;
         text-align: center;
         background: linear-gradient(90deg, rgb(189, 189, 224), #f6adb4);
         -webkit-background-clip: text;
