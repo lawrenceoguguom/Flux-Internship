@@ -10,7 +10,7 @@ Internship Assignment
 
 **Hero Section** – Displays the main introductory content of the page.
 
-**Services Section** – Showcases key services  
+**Services Section** – Showcases key services 
 
 **Contact Section** - Displays contents form inputs to receive data from users
  
@@ -25,4 +25,4 @@ Internship Assignment
 **Vite**
 
 ## 🚀 How to Run the Project 
-### 1. http://ghostcall.github.io/Flux-Internship/
+### 1. http://lawrenceoguguom.github.io/Flux-Internship/
